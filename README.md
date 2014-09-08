@@ -16,8 +16,8 @@ Download the .sh file, `chmod u+x the-filename` and you should be good to go.
 ## Making it drag and drop compatable.
 If you are not on Mac OS X, you will need to find a wrapper application that can encapsulate a shell script.  If you are on Mac OS X, I have included a final `Set File to zero bytes.app.zip` app that you can use.  If you want to test the integrity of the file, it's md5 is:
 
-    $md5 Set\ File\ to\ zero\ bytes.app.zip 
-    MD5 (Set File to zero bytes.app.zip) = 9e7d345d94d265c485b181d5fc374de6
+    $set-to-file-zero-bytes $md5 "zero-automator.app.zip"
+    MD5 (zero-automator.app.zip) = 9e7d345d94d265c485b181d5fc374de6
    
 You can also control click on the file, select "Show Package Contents", where you will find all the parts of the file, including my raw shell script you can compare to the file on git-hub.
 
